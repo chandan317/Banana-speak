@@ -1,9 +1,13 @@
+var btnTranslate = document.querySelector("#btn-translate")
 
-//input
-var username =prompt("give me username")
+var txtInput =document.querySelector("#txt-input");
 
-//processing
-var welcomemessage = "this script works"+ username;
+var outputDiv = document.querySelector("#output")
 
-//output
-alert(welcomemessage);
+
+function clickHandler() {
+ 
+    outputDiv.innerText ="hiiiii..." + txtInput.value;
+};
+
+btnTranslate.addEventListener("click",clickHandler)
