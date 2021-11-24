@@ -5,6 +5,7 @@ body {
 }
 
 .section {
+    border-bottom-left-radius: 5em;
     text-align: center;
     background-color: yellow;
     padding: 2rem;
@@ -15,4 +16,6 @@ body {
 #btn-translate {
     background-color: yellow;
     padding: 1rem;
+    border-radius: 3em;
+
 }
