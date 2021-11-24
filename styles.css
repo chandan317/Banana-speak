@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Dancing+Script:wght@600;700&family=Monsieur+La+Doulaise&family=Montez&family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+.section {
+    text-align: center;
+    background-color: yellow;
+    padding: 2rem;
+    font-size: larger;
+    font: bold;
+}
+
+#btn-translate {
+    background-color: yellow;
+    padding: 1rem;
+}
